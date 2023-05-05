@@ -4,7 +4,9 @@ public class MainUI {
 
 	public static void main(String[] args) throws Exception {
 		
-		DepartmentUI.create();
+		//DepartmentUI.create();
+		
+		CourseUI.create();
 
 	}
 

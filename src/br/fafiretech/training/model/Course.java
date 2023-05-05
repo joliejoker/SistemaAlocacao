@@ -31,8 +31,8 @@ public class Course extends Department{
 
 	@Override
 	public String toString() {
-		return "Course [nameCourse=" + nameCourse + ", abbrevCourse=" + abbrevCourse + ", getNameDepartment()="
-				+ getNameDepartment() + ", getAreaDepartment()=" + getAreaDepartment() + ", getAbbrevDepartment()="
+		return "Course: [Nome do Curso = " + nameCourse + ", \nSigla do Curso = " + abbrevCourse + ", \nNome do Departamento = "
+				+ getNameDepartment() + ", \nÁrea do Departamento = " + getAreaDepartment() + ", \nSigla do Departamento = "
 				+ getAbbrevDepartment() + "]";
 	}
 	
